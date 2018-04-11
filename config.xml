@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<widget.xmlns= "http://www.w3.org/ns/widgets"
+<widget xmlns ="http://www.w3.org/ns/widgets"
 xmlns:gap= "http://phonegap.com/ns/1.0"
 id = "com.phonegap.app1"
 version = "1.0.0">
@@ -11,7 +11,7 @@ version = "1.0.0">
 Aplicacion que muestra los datos del dispositivo
 </description>
 
-<author href="https://build.phonegap.com" email="micorreo@gmail.com">
+<author href="https://build.phonegap.com" email="adolfandrade1@gmail.com">
 adolfo andrade rangel
 </author>
 
@@ -35,6 +35,6 @@ adolfo andrade rangel
 
 <!--Colocar icono app-->
 
-<icon src="res/android/mdpi.png"
+<icon src="res/android/mdpi.png" />
 
 </widget>
