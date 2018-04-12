@@ -2,11 +2,11 @@
 
  $(document).ready(function (e){
    document.addEventListener ("deviceready",function(){
-	   $('#disp tableid').eq(3).text(device.model);
-	   $('#disp tableid').eq(5).text(device.cordova);
-	   $('#disp tableid').eq(7).text(device.platform);
-	   $('#disp tableid').eq(9).text(device.version);
-	   $('#disp tableid').eq(11).text(device.uuid);
+	   $('#disp table td').eq(3).text(device.model);
+	   $('#disp table td').eq(5).text(device.cordova);
+	   $('#disp table td').eq(7).text(device.platform);
+	   $('#disp table td').eq(9).text(device.version);
+	   $('#disp table td').eq(11).text(device.uuid);
 	  document.addEventLister("pause",function(){
 		  escribehistoria ('la app se pauso');
 	  },false);//pause
