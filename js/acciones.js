@@ -7,7 +7,7 @@
 	   $('#disp table td').eq(7).text(device.platform);
 	   $('#disp table td').eq(9).text(device.version);
 	   $('#disp table td').eq(11).text(device.uuid);
-	  document.addEventLister("pause",function(){
+	  document.addEventListener("pause",function(){
 		  escribehistoria ('la app se pauso');
 	  },false);//pause
 	  document.addEventListener("resume",function(){
